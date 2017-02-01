@@ -1,0 +1,32 @@
+{
+  "name": "CMS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "cookie-session": "^2.0.0-alpha.2",
+    "express": "^4.14.0",
+    "hjs": "^0.0.6",
+    "mongoose": "^4.7.8",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.0.0",
+    "serve-favicon": "^2.3.2"
+  }
+}

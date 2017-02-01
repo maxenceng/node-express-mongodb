@@ -1,0 +1,9 @@
+{{>header}}
+    <body>
+        <div class="container">
+            <h1 class="text-center">Hello!</h1>
+            <p>Welcome to CMS.js!</p>
+            <p>Feel free to change how the boilerplate looks like by changing the files in the assets and the views folder</p>
+        </div>
+    </body>
+{{>footer}}
