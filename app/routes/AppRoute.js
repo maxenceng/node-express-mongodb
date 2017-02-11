@@ -3,13 +3,13 @@
  *************************************************************/
 
 const router = require('express').Router()
-const ctrl = require('../controllers/AppController')
+const AppController = require('../controllers/AppController')
 
 /**************************************************************
  * ROUTES
  *************************************************************/
 
-router.get('/', ctrl.index)
+router.get('/', AppController.index)
 
 
 /**************************************************************
