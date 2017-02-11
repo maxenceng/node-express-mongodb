@@ -30,10 +30,10 @@ db.on('error', console.error.bind(console, 'connection error:'))
  * ROUTES INIT
  *************************************************************/
 
-const appRoutes = require('./app/routes/AppRoute')
-const PostRoutes = require('./app/routes/PostRoute')
-const UserRoutes = require('./app/routes/UserRoute')
-const StaticRoutes = require('./app/routes/StaticRoute')
+const appRoute = require('./app/routes/AppRoute')
+const PostRoute = require('./app/routes/PostRoute')
+const UserRoute = require('./app/routes/UserRoute')
+const StaticRoute = require('./app/routes/StaticRoute')
 
 
 /**************************************************************
@@ -58,10 +58,10 @@ app.use(passport.session())
  * ROUTING
  *************************************************************/
 
-app.use(appRoutes)
-app.use('/api', PostRoutes)
-app.use('/auth', UserRoutes)
-app.use(StaticRoutes)
+app.use(appRoute)
+app.use('/api', PostRoute)
+app.use('/auth', UserRoute)
+app.use(StaticRoute)
 
 
 /**************************************************************
