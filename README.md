@@ -1,7 +1,7 @@
 # node-express-mongodb
 ### This boilerplate provides a RESTful API and authentication for the website's users.
 
-In order to make this work on your machine, you need to have [MongoDB](https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-16-04) installed as services.
+In order to make this work on your machine, you need to have [MongoDB](https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-16-04) installed as a service.
 
 It uses MongoDB to store data used by the API and the users credentials.
 Sessions are stored in cookies.
